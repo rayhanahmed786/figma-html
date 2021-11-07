@@ -462,7 +462,16 @@ input[type=text]:placeholder {
 	color: #34c6d3 !important;
 }
 
+/*
+-----------------------------
+|   | Clients
+-----------------------------
+*/
+.rowpadding{
+  padding-bottom: 50px;
+}
 
+/*
 
 
 /*
