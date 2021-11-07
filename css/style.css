@@ -17,9 +17,10 @@ html {
 -----------------------------
 |   |Content Box
 -----------------------------
+
 */
 .content-box {
-	padding: 60px 0 0 0;
+	padding: 60px 0 60px 0;
 }
 
 .content-title h3 {
@@ -253,8 +254,20 @@ width: 180px;
 height: 180px;
 }
 
+.user-box3 {
+width: 300px;
+height: 200px;
+float: left;
+margin-top: 50%;
+}
 
-
+.user-box2 .wrapper{
+align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 180px;
+  height: 180px
+}
 
 
 .wrapper {
@@ -270,10 +283,9 @@ height: 180px;
   -webkit-border-radius: 10px 10px 10px 10px;
   border-radius: 10px 10px 10px 10px;
   background: #fff;
-  padding: 30px;
   width: 90%;
   position: relative;
-  padding: 0px;
+  padding: 0px 0px 25px 0px;
   -webkit-box-shadow: 0 30px 60px  rgba(0,0,0,0.1);
   box-shadow: 0 30px 60px  rgba(0,0,0,0.1);
   text-align: center;
@@ -288,12 +300,12 @@ input[type=button], input[type=submit], input[type=reset]  {
   background-color: #FFECEC;
   border: none;
   color: red;
-  padding: 9px;
-  width: 65%;
+  padding: 12px;
+  width: 80%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 13px;
+  font-size: 18px;
   -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
   box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
   -webkit-border-radius: 5px 5px 5px 5px;
@@ -322,12 +334,12 @@ input[type=text] {
   background-color: #f6f6f6;
   border: none;
   color: #F2F2F2;
-  padding: 10px 13px;
+  padding: 18px 12px;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
-  margin: 5px;
-  width: 65%;
+  font-size: 14px;
+  margin: 9px;
+  width: 80%;
   border: 2px solid #f6f6f6;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -385,11 +397,7 @@ input[type=text]:placeholder {
   animation-delay: 1s;
 }
 
-.user-box3 {
-width: 300px;
-height: 200px;
-float: left;
-}
+
 /*
 -----------------------------
 |   | Navigation
