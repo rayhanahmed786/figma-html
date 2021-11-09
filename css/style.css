@@ -404,16 +404,62 @@ input[type=text]:placeholder {
 -----------------------------
 */
 .navbar {
-	padding: 20px 0;
+	 
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.nav .navbar-nav .navbar-right{
+  float: right;
+  margin-right: 10px;
+}
+/* .nav .navbar-nav .navbar-right img {
+  border-radius: 50%;
+} */
+.smart-scroll{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled-down{
+   transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+   transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
+
+.img-responsive{
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.btn-general {
+  position: relative;
+	border-width: 1px;
+	border-radius: 11px;
+	padding: 6px 36px 12px 33px;
+	font-size: 21px;
+	font-weight: 400;
+	/* text-transform: uppercase; */
 }
 
 .vesco-top-nav {
-	background-color: rgba(0, 0, 0.7);
+	background-color: transparent;
 	padding: 7px 0;
 }
 
 .navbar-nav > li > a {
-	color: #fff;
+	color: #1A1A4D;
 	font-size: 15px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -421,7 +467,8 @@ input[type=text]:placeholder {
 }
 
 .nav-link {
-	color: #fff !important;
+	color: #1A1A4D
+ !important;
 }
 
 .nav-link:hover,
@@ -430,9 +477,6 @@ input[type=text]:placeholder {
 	color: #34c6d3 !important;
 }
 
-.nav-item {
-	background-color: rgba(0, 0, 0.7);
-}
 
 .navbar-toggler {
 	background-color: rgba(0, 0, 0, 0.7);
@@ -448,7 +492,8 @@ input[type=text]:placeholder {
 	width: 100%;
 	float: left;
 	height: 2px;
-	background-color: #fff;
+	background-color: #1A1A4D
+;
 	margin-bottom: 5px;
 }
 
@@ -459,8 +504,8 @@ input[type=text]:placeholder {
 }
 
 .nav-item > a.active {
-	color: #34c6d3 !important;
-}
+	color: #1A1A4D !important;
+} 
 
 /*
 -----------------------------
@@ -470,8 +515,6 @@ input[type=text]:placeholder {
 .rowpadding{
   padding-bottom: 50px;
 }
-
-/*
 
 
 /*
